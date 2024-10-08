@@ -124,6 +124,11 @@
   cursor: pointer;
 }
 
+.gray{
+  background: #eaeaea;
+  color: #676767;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
