@@ -66,6 +66,16 @@
   gap: 25px;
 }
 
+.input{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 480px;
+  height: 80px;
+  background: #eaeaea;
+  border-radius: 6px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
