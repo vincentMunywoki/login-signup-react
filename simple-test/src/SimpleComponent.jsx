@@ -3,10 +3,12 @@ import React from 'react';
 import './App.css'; // Ensure this file exists if you are using it
 
 const SimpleComponent = () => {
+
+    const [action,setAction] = useState("Sign Up");
     return (
         <div className='container'>
             <div className="header">
-                <div className="text">Sign Up</div>
+                <div className="text">{action}</div>
                 <div className="underline"></div>
             </div>
             <div className="inputs">
@@ -22,8 +24,8 @@ const SimpleComponent = () => {
             </div>
             <div className="forgot-password">Lost Password? <span>Click here</span></div>
             <div className="submit-container">
-                <div className="submit">Sign Up</div>
-                <div className="submit">Login</div>
+                <div className={action==="Login"?"submit gray":"submit"}>Sign Up</div>
+                <div className={action==="Sign Up"?"submit gray":"submit"}>Login</div>
             </div>
         </div>
     );
