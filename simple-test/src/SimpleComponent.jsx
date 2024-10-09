@@ -12,9 +12,10 @@ const SimpleComponent = () => {
                 <div className="underline"></div>
             </div>
             <div className="inputs">
-                <div className="input">
+                {action==="Login"?<div></div>:<div className="input">
                     <input type="text" placeholder="Username" />
-                </div>
+                </div>}             
+
                 <div className="input">
                     <input type="email" placeholder="Email" />
                 </div>
