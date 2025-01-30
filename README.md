@@ -12,7 +12,7 @@ This is a simple React application that features a registration and login form. 
 
 - **React** A JavaScript library for building user interfaces.
 - **JavaScript** The primary programming language used.
-- **CSS**: For styling the components.
+- **CSS** For styling the components.
 
 ## Getting Started
 
