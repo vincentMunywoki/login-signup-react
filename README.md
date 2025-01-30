@@ -11,7 +11,7 @@ This is a simple React application that features a registration and login form. 
 ## Technologies Used
 
 - **React** A JavaScript library for building user interfaces.
-- **JavaScript**: The primary programming language used.
+- **JavaScript** The primary programming language used.
 - **CSS**: For styling the components.
 
 ## Getting Started
