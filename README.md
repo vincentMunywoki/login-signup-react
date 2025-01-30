@@ -4,7 +4,7 @@ This is a simple React application that features a registration and login form. 
 
 ## Features
 
-- **Toggle Between Login and Sign Up**: Users can easily switch between the login and signup forms.
+- **Toggle Between Login and Sign Up** Users can easily switch between the login and signup forms.
 - **Controlled Form Inputs**: Form fields are controlled by React state, ensuring that user input is captured and managed effectively.
 - **Validation**: Basic required field validation is implemented.
 
